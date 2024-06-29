@@ -1,0 +1,89 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.freepik.com/free-photo/view-toilet-bag-products-arrangement_33796607.htm#fromView=search&page=1&position=6&uuid=a92cddc4-1213-44d6-a27b-89fac3556c7d"
+    },
+    {
+        "id": 2,
+        "name": "Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.freepik.com/free-photo/natural-treatment-table_8733312.htm#from_view=detail_alsolike"
+    },
+    {
+        "id": 3,
+        "name": "Music Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 100,
+        "category": "Song",
+        "image": "https://www.freepik.com/free-photo/cosmetic-lotion-flower-copy-space_6943419.htm#fromView=search&page=1&position=15&uuid=885cf5fb-c6a1-4b22-a357-3b95158ffb6a"
+    },
+    {
+        "id": 4,
+        "name": "Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.freepik.com/search?ai=excluded&format=search&last_filter=query&last_value=fash+creams+pink&query=fash+creams+pink&selection=1&type=photo"
+    }, {
+        "id": 5,
+        "name": "Food Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 200,
+        "category": "Food",
+        "image": "https://www.freepik.com/search?ai=excluded&format=search&last_filter=query&last_value=fash+creams+pink&query=fash+creams+pink&selection=1&type=photo"
+    }, 
+    {
+        "id": 6,
+        "name": "Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.freepik.com/search?ai=excluded&format=search&last_filter=query&last_value=fash+creams+pink&query=fash+creams+pink&selection=1&type=photo"
+    },
+    {
+        "id": 7,
+        "name": "Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.freepik.com/search?ai=excluded&format=search&last_filter=query&last_value=fash+creams+pink&query=fash+creams+pink&selection=1&type=photo"
+    },
+    {
+        "id": 8,
+        "name": "Sports Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 50,
+        "category": "Sports",
+        "image": "https://www.freepik.com/search?ai=excluded&format=search&last_filter=query&last_value=fash+creams+pink&query=fash+creams+pink&selection=1&type=photo"
+    },
+    {
+        "id": 9,
+        "name": "Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.freepik.com/search?ai=excluded&format=search&last_filter=query&last_value=fash+creams+pink&query=fash+creams+pink&selection=1&type=photo"
+    },
+    {
+        "id": 10,
+        "name": "Comedy Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 360,
+        "category": "Comedy",
+        "image": "https://www.freepik.com/search?ai=excluded&format=search&last_filter=query&last_value=fash+creams+pink&query=fash+creams+pink&selection=1&type=photo"
+    },
+    {
+        "id": 11,
+        "name": "Story Book",
+        "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://www.freepik.com/search?ai=excluded&format=search&last_filter=query&last_value=fash+creams+pink&query=fash+creams+pink&selection=1&type=photo"
+    }
+]
