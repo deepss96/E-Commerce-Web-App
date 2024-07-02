@@ -1,9 +1,24 @@
-import React from "react";
-import list from "../../public/list.json";
+import React, { useEffect, useState } from "react";
 import Cards from "./Cards";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
+import axios from "axios";
+
 
 function Course() {
+  const [stonex, setStonex] = useState([]);
+  useEffect(() => {
+    const getInventory = async () => {
+      try {
+        const response = await axios.get("http://localhost:4001/Stonex");
+        console.log(response.data)
+        setStonex(response.data)
+      } catch (error) {
+        console.log(error)
+
+      }
+    }
+    getInventory();
+  }, [])
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
@@ -15,12 +30,12 @@ function Course() {
           <p className="mt-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias corrupti, explicabo, natus minima, veniam provident ipsum molestiae voluptas quo quasi ad reprehenderit. Voluptatum consequuntur minus voluptas fugit possimus porro provident quidem harum incidunt, quo corrupti asperiores adipisci natus. Nam, architecto quas. Itaque, nemo totam dicta veniam amet at ducimus praesentium id culpa laboriosam sit voluptates architecto incidunt magnam pariatur debitis obcaecati exercitationem necessitatibus perferendis.
           </p>
           <Link to="/">
-          <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">Back</button>
+            <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">Back</button>
           </Link>
         </div>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4">
-          {list.map((item) => (
+          {stonex.map((item) => (
             <Cards key={item.id} item={item} />
           ))}
         </div>

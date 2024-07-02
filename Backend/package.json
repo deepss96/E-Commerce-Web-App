@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "mern project on E-commerce-app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepss96/E-Commerce-Web-App.git"
+  },
+  "author": "Deepak Vaishnav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepss96/E-Commerce-Web-App/issues"
+  },
+  "homepage": "https://github.com/deepss96/E-Commerce-Web-App#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4"
+  }
+}

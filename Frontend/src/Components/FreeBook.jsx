@@ -1,12 +1,27 @@
-import React from "react";
-import list from "../../public/list.json";
+import React, { useEffect, useState } from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import Cards  from "./Cards";
+import Cards from "./Cards";
+import axios from "axios";
 
 function FreeBook() {
-  const filterData = list.filter((data) => data.category === "Free");
+  const [stonex, setStonex] = useState([]);
+  useEffect(() => {
+    const getInventory = async () => {
+      try {
+        const response = await axios.get("http://localhost:4001/Stonex");
+        
+        const data = response.data.filter((data) => data.category === "Free");
+        console.log(data)
+        setStonex(data);
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    getInventory();
+  }, [])
+
   var settings = {
     dots: true,
     infinite: false,
@@ -41,7 +56,6 @@ function FreeBook() {
       },
     ],
   };
-  console.log(filterData);
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-10">
@@ -57,7 +71,7 @@ function FreeBook() {
 
         <div>
           <Slider {...settings}>
-            {filterData.map((item) => (
+            {stonex.map((item) => (
               <Cards item={item} key={item.id} />
             ))}
           </Slider>
